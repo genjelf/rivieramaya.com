@@ -112,9 +112,7 @@ body{
 
 /*banner*/
 
-#banner{
-/*
-    margin-top: 15px;*/
+#banner{   
     width: 100%;
     height: 443px;
     background: url("../images/banner.jpg") center center;
@@ -283,7 +281,6 @@ color:#fff;
 #section-menu, #section-eventos, #section-coctel{
 
 			height: 290px;
-			width: 3px;
 			margin-top: 34px;
 			text-align: center;
 			width: calc(33.33% - 26.7px);

@@ -1,0 +1,74 @@
+@media print {
+
+/*banner*/
+
+ footer, nav, aside, ul {
+  display: none;
+}
+
+#navegacion{
+	display: none;
+}
+
+#banner{
+   display: block;
+	width: 100%;
+	height: 200px;
+	background-image: url("../images/banner.jpg") center center;
+	background-size: cover;
+
+}
+#parra-wel, #tibien{
+ width: 100%;
+ margin-left: 50%;
+ text-align: center;
+ height: auto;
+
+}
+#parra-wel{
+
+	font-size: 1.8rem;
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+#video{
+	display: none;
+}
+
+#section-menu, #section-eventos, #section-coctel{
+
+			height: auto;             
+			margin-top: 10px;
+			text-align: center;
+			max-width: 100%;
+			width: 100%;
+			
+
+}
+
+article{
+	page-break-before: always;
+}
+#botonEscr{
+	display: none;
+}
+
+.flex-containerN {
+    
+     display: flex;
+    justify-content: space-around;
+    
+}
+
+.numerotele{
+	font-size: 1.8rem;
+	margin: 0;
+	margin-bottom: 6px;
+	
+
+}
+
+
+
+
+}
