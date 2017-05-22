@@ -197,9 +197,16 @@ text-align: right;
 
 #menu-principal li{
 	display: inline-block;
+	padding: 8px 8px 8px 8px;
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
 	
+}
+#menu-principal li:hover{
+	background-color: rgba(173,205,144,0.3);
 
-	
 	
 }
 #menu-principal li a{
