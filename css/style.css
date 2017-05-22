@@ -109,7 +109,11 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 }
-
+.flex-item-center {
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: center;
+		}
 /*banner*/
 
 #banner{   
@@ -438,7 +442,7 @@ color:#fff;
 }
 #correorm{
 			padding-top: 0;
-			margin-top: 55px;
+			margin-top: 15px;
 			text-align: left;
 
 }
@@ -580,10 +584,7 @@ color:#fff;
 		padding-top: 2px;
 		}
 
-		.flex-item-header {
-		    display: flex;
-		    justify-content: center;
-		}
+		
 		#bar-search-Check{
 			display: none;
 		}
