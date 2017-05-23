@@ -738,9 +738,13 @@ color:#fff;
 			background-color: #009045;
 			margin-bottom: 20px;
 		}
+		.ti-menu{
+			font-size: 1.325rem;
+		}
 
 		.p-menu{
             line-height: 25px;
+            font-size: 1rem;
 		}
 
 		/*promo*/
